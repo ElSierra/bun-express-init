@@ -22,7 +22,7 @@ A modern, fast Express.js backend starter template powered by Bun runtime.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/bun-express-backend.git
+git clone https://github.com/ElSierra/bun-express-init
 
 # Change directory
 cd bun-express-backend
