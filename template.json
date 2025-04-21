@@ -1,0 +1,6 @@
+{
+  "name": "express-ts",
+  "description": "Express.js with TypeScript boilerplate for Bun",
+  "author": "Isaac Ojo <hojoisaac@gmail.com>",
+  "postinstall": "bun run setup.ts"
+}

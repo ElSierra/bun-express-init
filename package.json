@@ -1,8 +1,10 @@
 {
-  "name": "bun-express-backend",
+  "name": "express-ts",
+  "version": "1.0.0",
   "module": "index.ts",
   "type": "module",
-  "private": true,
+  "description": "Express.js with TypeScript boilerplate for Bun",
+  "author": "Isaac Ojo <hojoisaac@gmail.com>",
   "scripts": {
     "dev": "bun run --watch index.ts",
     "dev:local": "cross-env NODE_ENV=development bun run --watch index.ts",
@@ -29,5 +31,13 @@
     "helmet": "^8.1.0",
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.0"
+  },
+  "trustedDependencies": [
+    "chalk",
+    "cross-env"
+  ],
+  "bun-create": {
+    "preinstall": "bun i -g typescript",
+    "postinstall": "bun run setup.ts"
   }
 }
