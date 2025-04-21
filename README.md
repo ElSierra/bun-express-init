@@ -4,14 +4,27 @@ A modern Express.js template for building TypeScript-based APIs with [Bun](https
 
 ## Features
 
-- 🚀 **Express.js 5**: Latest Express framework with modern features
-- 📝 **TypeScript**: Type safety and modern JavaScript features
-- 🔒 **Authentication**: JWT-based auth system built-in
-- 🛡️ **Security**: Helmet middleware for enhanced security
-- 📊 **Logging**: Custom logger with color support
-- 🔄 **Development**: Hot reloading with Bun's watch mode
-- 🧩 **Modular**: Well-organized project structure
-- 🔌 **Middleware**: Error handling, CORS, and more
+- ⚡️ **Ultra-fast** - Powered by Bun runtime (3-4x faster than Node.js)
+- 🔒 **Secure** - Includes Helmet middleware for enhanced security
+- 🌈 **Colorful Logs** - Integrated colored console logging
+- 🔄 **Hot Reload** - Automatic restart for fast development
+- 🧩 **TypeScript** - Full TypeScript support
+- 🔐 **JWT Auth** - Built-in JWT authentication system
+- 🛣️ **Structured Routes** - Organized route management
+- 📝 **Advanced Logging** - Customizable logging with colors
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/ElSierra/bun-express-init
+
+# Change directory
+cd bun-express-backend
+
+# Install dependencies
+bun install
+```
 
 ## Quick Start
 
